@@ -1,0 +1,87 @@
+# Environnements virtuels
+venv/
+.venv/
+env/
+mon_env/
+ENV/
+Pipfile.lock
+
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+wheels/
+
+# Tests / coverage / type-check
+.coverage
+htmlcov/
+.pytest_cache/
+.nox/
+.tox/
+.mypy_cache/
+.cache/
+
+# Logs
+*.log
+logs/
+debug.log
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Secrets / config
+.env
+.env.local
+.secrets
+secrets.json
+config.py
+settings.ini
+local_settings.py
+
+# Data / outputs / models (générés)
+data/
+datasets/
+data_raw/
+outputs/
+results/
+reports/
+models/
+*.h5
+*.pt
+*.pth
+*.joblib
+*.pkl
+*.pickle
+*.sav
+
+# SQLite / DB files
+*.db
+*.sqlite3
+
+# Misc
+coverage.xml
+desktop.ini
+.vagrant/
+.idea/
